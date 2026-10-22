@@ -21,7 +21,8 @@ jobs:
           distribution: 'temurin'
 
       - name: Compile Java Program
-        run: javac test.java
+        run: javac hello.java
 
       - name: Run Java Program
-        run: java test
+        run: java hello
+        
