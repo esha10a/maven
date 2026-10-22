@@ -19,5 +19,5 @@ jobs:
           distribution: 'temurin'
       - name: Compile Java Program
         run: javac hello.java
-      - name: Run Java Proram
+      - name: Run Java Program
         run: run java hello
